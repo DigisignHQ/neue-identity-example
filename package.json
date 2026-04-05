@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "bun --hot src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.32.1",
   "dependencies": {
+    "@elysiajs/cors": "^1.4.1",
     "better-auth": "^1.5.6",
+    "elysia": "^1.4.28",
     "nanoid": "^5.1.7"
   },
   "devDependencies": {
