@@ -1,4 +1,4 @@
-# micromachine
+# Neue Identity
 
 To install dependencies:
 
